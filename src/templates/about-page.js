@@ -12,7 +12,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
+            
+                {title} - Hackin the system (src/templates/about-page.js)
               </h2>
               <PageContent className="content" content={content} />
             </div>
